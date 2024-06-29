@@ -21,9 +21,6 @@ class Fraction:
           tempnum=self.den*other.num
           return f"{tempnum}/{tempden}"
 
-
-
-
 a=Fraction(5,6)
 b=Fraction(6,3)
 print(a*b)
